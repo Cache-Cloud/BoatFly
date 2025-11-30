@@ -14,7 +14,7 @@ jobs:
           with:
             depth: 1
             branch: 'master'
-            owner: 'Cache-Cloud' 
+            owner: 'Cache-Cloud'
             #请更改用户为你的用户名
             repository: 'BoatFly'
         - name: 编译 BoatFly 本体
