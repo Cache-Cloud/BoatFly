@@ -30,7 +30,7 @@ public class LoadEvent {
             getServer().getPluginManager().registerEvents(new Click(), plugin);
             getServer().getPluginManager().registerEvents(new PlayerInteract(), plugin);
             getServer().getPluginManager().registerEvents(new VehicleDestroy(), plugin);
-            getServer().getPluginManager().registerEvents(new UpgradeCheck(), plugin);
+            //getServer().getPluginManager().registerEvents(new UpgradeCheck(), plugin);
             getServer().getPluginManager().registerEvents(new Finder(), plugin);
 
             //铺垫awa
