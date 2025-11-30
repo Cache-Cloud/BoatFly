@@ -14,18 +14,18 @@ jobs:
           with:
             depth: 1
             branch: 'master'
-            owner: 'Wenkrangha' 
+            owner: 'Cache-Cloud' 
             #请更改用户为你的用户名
             repository: 'BoatFly'
         - name: 编译 BoatFly 本体
           run: mvn package
-        - name: 克隆 Wenkrangha/BoatFly-BootLoader 公共存储库
+        - name: 克隆 Cache-Cloud/BoatFly 公共存储库
           uses: GuillaumeFalourd/clone-github-repo-action@v2.1
           with:
             depth: 1
             branch: 'master'
             #请更改用户为你的用户名
-            owner: 'Wenkrangha'
+            owner: 'Cache-Cloud'
             repository: 'BoatFly-Bootloader'
         - name: 准备资源文件以开始编译 BoatFly-Bootloader    
           run: |
